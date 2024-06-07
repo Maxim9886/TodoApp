@@ -1,0 +1,43 @@
+.App {
+  width: 60%;
+  margin: 0 auto;
+}
+
+
+.App-content {
+  margin: 10px;
+  border: 1px solid rgba(5, 5, 5, 0.06);
+}
+
+.main-container {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.header {
+  display: block;
+  flex: 0 0 80%;
+}
+
+.create-todo-container {
+  flex: 0 0 80%;
+
+  h4 {
+    margin: 0;
+  }
+}
+
+.input-container {
+  display: flex;
+  gap: 20px;
+}
+
+.todo-list {
+  flex: 0 0 80%;
+}
+
+.toggle-buttons {
+  flex: 0 0 30%;
+}
+
