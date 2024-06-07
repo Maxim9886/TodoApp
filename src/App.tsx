@@ -23,9 +23,9 @@ function App() {
                 {status === "active" && <ActiveTodoList />}
                 <Col className="toggle-buttons">
                     <Radio.Group defaultValue={0} buttonStyle="solid">
-                        <Radio.Button value={0} onChange={() => setStatus("all")}>All todo list</Radio.Button>
-                        <Radio.Button value={1} onChange={() => setStatus("completed")}>Completed todo list</Radio.Button>
-                        <Radio.Button value={2} onChange={() => setStatus("active")}>Active todo list</Radio.Button>
+                        <Radio.Button value={0} onChange={() => setStatus("all")}>All</Radio.Button>
+                        <Radio.Button value={1} onChange={() => setStatus("completed")}>Completed</Radio.Button>
+                        <Radio.Button value={2} onChange={() => setStatus("active")}>Active</Radio.Button>
                     </Radio.Group>
                 </Col>
             </Row>

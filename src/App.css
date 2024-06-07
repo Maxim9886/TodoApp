@@ -3,7 +3,6 @@
   margin: 0 auto;
 }
 
-
 .App-content {
   margin: 10px;
   border: 1px solid rgba(5, 5, 5, 0.06);
@@ -13,6 +12,9 @@
   display: flex;
   justify-content: center;
   gap: 30px;
+  margin: 0 auto;
+  width: 80%;
+  flex-direction: column;
 }
 
 .header {
@@ -38,6 +40,6 @@
 }
 
 .toggle-buttons {
-  flex: 0 0 30%;
+  flex: inherit;
+  margin: auto;
 }
-

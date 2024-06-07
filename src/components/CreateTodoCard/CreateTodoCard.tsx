@@ -31,7 +31,7 @@ const CreateTodoCard: FC = () => {
                         layout="horizontal"
                         wrapperCol={{ span: 23 }}
                     >
-                        <Row>
+                        <Row justify="space-between">
                             <Col className="ant-col-xl-20">
                                 <Form.Item
                                     name="todo"
